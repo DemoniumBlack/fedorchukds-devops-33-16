@@ -12,3 +12,7 @@
       debian:
         ansible_connection: local
         ansible_host: localhost
+  fed:
+    hosts:
+      fedora:
+        ansible_connection: docker
